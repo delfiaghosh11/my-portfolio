@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "my-portfolio-delfia-ghosh"
-          entrypoint: "./index.html"
+          entrypoint: "server/entry.mjs"
           root: "dist"
           
           
