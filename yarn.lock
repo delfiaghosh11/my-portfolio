@@ -276,6 +276,14 @@
     "@babel/helper-string-parser" "^7.25.9"
     "@babel/helper-validator-identifier" "^7.25.9"
 
+"@deno/astro-adapter@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@deno/astro-adapter/-/astro-adapter-0.1.5.tgz#61b13acefc2a9b66935350ca8e1321814aeb8a7e"
+  integrity sha512-QGjBW2xIb6GTqWEJiy/4bLRTNDsmNTE5oYQ//pb4dToaHIE659EaDfJpS62PfoRRAD0SFMkiyxvRUEepAdPSkA==
+  dependencies:
+    esbuild "^0.19.2"
+    lodash "^4.17.21"
+
 "@emmetio/abbreviation@^2.3.3":
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/@emmetio/abbreviation/-/abbreviation-2.3.3.tgz#ed2b88fe37b972292d6026c7c540aaf887cecb6e"
@@ -1932,7 +1940,7 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash@4.17.21:
+lodash@4.17.21, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
