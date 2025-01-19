@@ -12,10 +12,18 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/deno": "^5.0.1",
+    "@astrojs/ts-plugin": "^1.10.4",
     "@astrojs/vue": "^5.0.5",
     "@deno/astro-adapter": "^0.1.5",
+    "@mdi/font": "^7.4.47",
     "astro": "^4.16.10",
     "typescript": "^5.6.3",
-    "vue": "^3.5.13"
+    "vite-plugin-vuetify": "^2.0.4",
+    "vue": "^3.5.13",
+    "vuetify": "^3.7.6"
+  },
+  "devDependencies": {
+    "i": "^0.3.7",
+    "material-design-icons": "^3.0.1"
   }
 }
