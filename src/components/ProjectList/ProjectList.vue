@@ -2,16 +2,13 @@
   import { ref } from 'vue'
   import { projectsData, projectsPreview } from './projects.ts'
 
-  import './projects.css'
+  import './projectlist.css'
 
   const props = defineProps<{
     isPreview: boolean
   }>()
 
   const projects = ref(props.isPreview ? projectsPreview() : projectsData)
-
-
-
 </script>
 
 <template>
@@ -23,7 +20,7 @@
           {{ desc }}
         </p>
       </div>
-      <img alt="{{ project.title }}" loading='lazy' decoding='async' v-bind:src="project.image" />
+      <img alt="{{ project.title }}" v-bind:src="project.image" loading='lazy' decoding='async' />
     </a>
   </li>
 </template>
