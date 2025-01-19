@@ -73,7 +73,7 @@ import './main.css';
 
         <div class='gallery'>
           <Grid variant='offset'>
-            <ProjectList isPreview={true} />
+            <ProjectList isPreview={true} client:visible />
           </Grid>
         </div>
       </section>
@@ -84,7 +84,7 @@ import './main.css';
           <h3>Experiences</h3>
         </header>
 
-        <Experiences />
+        <Experiences client:visible />
       </section>
 
       <!-- Awards -->
@@ -99,7 +99,7 @@ import './main.css';
 
         <div class='gallery'>
           <Grid variant='small'>
-            <Awards />
+            <Awards client:visible />
           </Grid>
         </div>
       </section>

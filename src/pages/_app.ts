@@ -7,7 +7,7 @@ import 'vuetify/styles';
 
 export default function setup(app: App) {
   const vuetify = createVuetify({
-    ssr: true,
+    // ssr: true,
     components,
     directives,
     icons: {

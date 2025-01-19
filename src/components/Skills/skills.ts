@@ -14,7 +14,6 @@ export const skillsData = [
       `React Router`,
       `React Query`,
       `React Hook Forms`,
-      `Ag Grid React`,
       `Lodash`,
       `Underscore.js`,
       `D3.js`,
@@ -24,6 +23,7 @@ export const skillsData = [
       `Moment.js`,
       `Next Js`,
       `Astro`,
+      `Vue Js`,
       `NX`,
     ],
   },
@@ -35,7 +35,7 @@ export const skillsData = [
   {
     title: 'Styling Frameworks and Pre-processors',
     icon: 'css',
-    details: ['Bootstrap', 'Material UI', 'Tailwind CSS', 'LESS', 'SASS'],
+    details: ['Bootstrap', 'Material UI', 'Tailwind CSS', 'Vuetify', 'LESS', 'SASS'],
   },
   {
     title: 'Unit Testing Frameworks and Libraries ',
