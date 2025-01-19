@@ -2,7 +2,7 @@
   import { ref } from 'vue'
   import { projectsData, projectsPreview } from './projects.ts'
 
-  import './projectlist.css'
+  import './project-list.css'
 
   const props = defineProps<{
     isPreview: boolean

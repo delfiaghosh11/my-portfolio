@@ -12,7 +12,7 @@
       <tbody>
         <tr v-for="(skill, index) in skills">
           <td class="skill-title">
-            <span class="material-symbols-outlined" style="font-size: 45px;">
+            <span class="material-symbols-outlined skill-title-icon">
               {{ skill.icon }}
             </span>
           </td>

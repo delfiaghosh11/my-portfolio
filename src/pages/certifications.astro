@@ -1,13 +1,10 @@
 ---
-import { getCollection } from 'astro:content';
+import BaseLayout from '@layouts/BaseLayout.astro';
 
-import BaseLayout from '../layouts/BaseLayout.astro';
-
-import ContactCTA from '../components/ContactCTA.astro';
-import Grid from '../components/Grid.astro';
-import Hero from '../components/Hero.astro';
-
-const projects = (await getCollection('projects')).sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+import { CertificateList } from '@components/CertificateList';
+import ContactCTA from '@components/ContactCTA.astro';
+import Grid from '@components/Grid.astro';
+import Hero from '@components/Hero.astro';
 ---
 
 <BaseLayout title='My Certifications | Delfia Ghosh' description="Learn about Delfia Ghosh's most recent certifications">
@@ -18,7 +15,9 @@ const projects = (await getCollection('projects')).sort((a, b) => b.data.publish
         tagline='See my most recent certifications below to get an idea of my learning experience.'
         align='start'
       />
-      <Grid variant='offset' />
+      <Grid variant='offset'>
+        <CertificateList client:only />
+      </Grid>
     </main>
     <ContactCTA />
   </div>

@@ -64,17 +64,17 @@ import './main.css';
           <h3>Projects</h3>
         </header>
 
+        <div class='gallery'>
+          <Grid variant='offset'>
+            <ProjectList isPreview={true} client:only />
+          </Grid>
+        </div>
+
         <div class='cta'>
           <CallToAction href='/projects/'>
             View All
             <Icon icon='arrow-right' size='1.2em' />
           </CallToAction>
-        </div>
-
-        <div class='gallery'>
-          <Grid variant='offset'>
-            <ProjectList isPreview={true} client:only />
-          </Grid>
         </div>
       </section>
 

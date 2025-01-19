@@ -8,3 +8,10 @@ export const getExperienceDetails = (orgName: string) =>
       .flatMap(([key, value]) => (key === orgName ? value : null))
       .filter((ele) => ele !== null)
   );
+
+export const getThemePreference = () => {
+  if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+    return localStorage.getItem('theme');
+  }
+  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+};
