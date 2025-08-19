@@ -23,8 +23,8 @@ export const skillsData = [
       `Moment.js`,
       `Next Js`,
       `Astro`,
-      `Vue Js`,
       `NX`,
+      `Vue Js`,
     ],
   },
   {
@@ -46,6 +46,19 @@ export const skillsData = [
   { title: 'Version Control', icon: `folder_data`, details: ['Git'] },
   { title: 'Version Control Systems', icon: `identity_platform`, details: ['Bitbucket', 'GitHub', 'GitLab'] },
   { title: 'CI/CD Tools', icon: `all_inclusive`, details: [`Jenkins`, `GitLab`, `Bamboo`] },
+  {
+    title: 'AI Tools/Libraries',
+    icon: `network_intelligence`,
+    details: [
+      `GitHub Copilot`,
+      `PyCharm`,
+      `PyPDF2`,
+      `LangChain`,
+      `Google Gemini Transformer`,
+      `Google GenAI Chat Model & Embeddings`,
+      `Streamlit`,
+    ],
+  },
   {
     title: 'Development Tools',
     icon: `developer_mode_tv`,

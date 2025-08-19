@@ -13,6 +13,8 @@ export const experiencesData = [
           `Spearheading Playwright adoption in collaboration with QA teams across the business unit, for test automation, reducing testing time by 40% and boosting coverage.`,
           `Managing incident resolution using ServiceNow and Glassbox, achieving a 90% SLA adherence rate while addressing system issues through Sumo Logic, maintaining 99% application uptime.`,
           `Streamlining deployment pipelines with Jenkins, automating process to reduce manual efforts by 20%.`,
+          `Leveraging GitHub Copilot as AI Peer Programmer to accelerate development, debugging and unit testing; applying prompt engineering
+          to generate reusable components and reduce development time by 25–30%, improving code maintainability and delivery speed.`,
         ],
       },
       {

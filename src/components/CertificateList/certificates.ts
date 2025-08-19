@@ -1,5 +1,12 @@
 export const certificateData = [
   {
+    title: `Generative AI for Beginners`,
+    issuer: `Udemy`,
+    date: `Aug 2025`,
+    url: `https://www.udemy.com/certificate/UC-d84690ab-b974-4289-b830-71d3edb961b7/`,
+    image: `/assets/gen-ai-beginners.jpg`,
+  },
+  {
     title: `Frontend Developer (React)`,
     issuer: `HackerRank`,
     date: `Dec 2024`,

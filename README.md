@@ -1,16 +1,31 @@
-# Astro Starter Kit: Portfolio
+# My Portfolio
 
-```sh
+This web app is built using **Astro** and **Vue** to showcase my portfolio, highlighting my professional experience, personal projects, skills, and other relevant details. The site is designed for easy navigation and a clean, modern presentation of my work and abilities.
+
+## ✨ Features
+
+- **Professional Experience:** Detailed sections about my work history and achievements.
+- **Personal Projects:** Showcases of projects I've built or contributed to.
+- **Skills:** A categorized list of my technical and soft skills.
+- **Contact Information:** Easy ways to get in touch with me.
+- **Responsive Design:** Optimized for all devices.
+
+## 🛠️ Built With
+
+- [Astro](https://astro.build/) – Static site generator
+- [Vue](https://vuejs.org/) – Frontend framework
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
 npm create astro@latest -- --template portfolio
+
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/portfolio/devcontainer.json)
+![portfolio](/public/assets/portfolio.png)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![portfolio](https://user-images.githubusercontent.com/357379/210779178-a98f0fb7-6b1a-4068-894c-8e1403e26654.jpg)
+## 🚀 Getting Started
 
 ## 🧞 Commands
 
@@ -28,3 +43,4 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```

@@ -17,7 +17,7 @@
                 </p>
             </div>
             <img v-if="certificate.image" alt="{{ certificate.title }}" v-bind:src="certificate.image" loading='lazy'
-                decoding='async' />
+                decoding='async' v-bind:style="{ width: 'auto', height: 'auto' }" />
         </a>
     </li>
 </template>

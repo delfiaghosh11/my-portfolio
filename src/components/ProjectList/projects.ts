@@ -1,5 +1,16 @@
 export const projectsData = [
   {
+    title: `Chatterly`,
+    url: `https://github.com/delfiaghosh11/chatterly`,
+    image: `/assets/chat.avif`,
+    description: [
+      `Technologies: Python, LangChain, Google Gemini Transformer, Google GenAI Chat Model & Embeddings, PyPDF2, Streamlit`,
+      `Development Tools: PyCharm`,
+      `Deployment Tools: Streamlit Cloud`,
+      `A smart, intuitive app that lets you upload documents and ask natural-language questions about their contents.`,
+    ],
+  },
+  {
     title: `Account Manager`,
     url: `https://github.com/delfiaghosh11/Account-Manager`,
     image: `/assets/account_manager.jpg`,
