@@ -34,15 +34,19 @@ const { variant } = Astro.props;
     grid-column: 1 / 3;
   }
 
-  @media (max-width: 50em) {
+  /** Mobile view */
+  @media (max-width: 767px) {
     .grid {
       grid-template-columns: 1fr 1fr;
       gap: 4rem;
     }
 
     .grid.offset {
-      --row-offset: 7.5rem;
-      padding-bottom: var(--row-offset);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      /* --row-offset: 7.5rem;
+      padding-bottom: var(--row-offset); */
     }
 
     /* Shift first item in each row vertically to create staggered effect. */
