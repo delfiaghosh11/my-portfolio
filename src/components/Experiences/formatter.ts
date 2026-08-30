@@ -6,7 +6,7 @@ export const getExperienceDetails = (orgName: string) =>
   experiencesData?.flatMap((experience) =>
     Object.entries(experience)
       .flatMap(([key, value]) => (key === orgName ? value : null))
-      .filter((ele) => ele !== null)
+      .filter((ele) => ele !== null),
   );
 
 export const getThemePreference = () => {

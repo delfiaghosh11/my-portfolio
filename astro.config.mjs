@@ -9,7 +9,7 @@ import vue from '@astrojs/vue';
  * @param {import('astro/config').Options} options
  * @returns {import('astro/config').AstroIntegration}
  */
-function vuetify(options) {
+function vuetify() {
   return {
     name: 'my-astro-vuetify-integration',
     hooks: {

@@ -1,7 +1,6 @@
 <script setup lang="ts">
   import { ref } from 'vue'
-  import { experiencesData } from './experiences.ts'
-  import { getOrganizations, getExperienceDetails, getThemePreference } from './formatter.ts'
+  import { getExperienceDetails, getOrganizations, getThemePreference } from './formatter.ts'
 
   import './experiences.css'
 

@@ -1,5 +1,27 @@
 export const projectsData = [
   {
+    title: `FreshCart — Premium Grocery Store`,
+    url: `https://github.com/delfiaghosh11/fresh-cart`,
+    image: `/assets/fresh_cart.avif`,
+    description: [
+      `Technologies: React 18, React Router, React Context API,JavaScript, ES6, TypeScript, Vite, Express.js, Node.js, UUID`,
+      `Development Tools: Google DeepMind Antigravity, Claude SDK Team Agents`,
+      `Deployment Tools: Vercel`,
+      `A full-stack grocery shopping application built with Express.js (backend) and React + Vite (frontend).`,
+    ],
+  },
+  {
+    title: `Nano Banana — The Future of Freshness`,
+    url: `https://github.com/delfiaghosh11/drinks`,
+    image: `/assets/nano_banana.jpg`,
+    description: [
+      `Technologies: Next.js 14 (App Router), JavaScript, ES6, TypeScript, Tailwind CSS, Framer Motion, HTML5 Canvas`,
+      `Development Tools: Google DeepMind Antigravity, Google AI Labs, Whisker, EzGif`,
+      `Deployment Tools: Netlify`,
+      `This single-page site seamlessly blends high-performance 3D-like scrolling animations with bold typography and immersive layouts to create a stunning, "Awwwards-worthy" product journey.`,
+    ],
+  },
+  {
     title: `Chatterly`,
     url: `https://github.com/delfiaghosh11/chatterly`,
     image: `/assets/chat.avif`,

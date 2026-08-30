@@ -2,8 +2,20 @@ export const experiencesData = [
   {
     'Ameriprise Financial': [
       {
-        designation: `Senior Developer`,
-        date: `Aug 2024 - Present`,
+        designation: `Software Engineer II`,
+        date: `Aug 2026 - Present`,
+        location: `Hyderabad, Telangana, India`,
+        additional: ``,
+        description: [
+          `Architecting responsive single-page applications (SPAs) using React, Redux, JavaScript, TypeScript, NX, HTML, CSS, and LESS, improving page load times by 30%, accessibility scores above 90%, performance by 25%, and reducing bounce rates by 15%, while integrating RESTful APIs for seamless functionality.`,
+          `Applying TDD principles with React Testing Library, Jest, Enzyme for unit and integration testing achieving 25% quicker time-to-market.`,
+          `Accelerated SDLC velocity by 20% by architecting a multi-agent ecosystem and leveraging GenAI, LLMs and prompt engineering that automated code
+          generation, unit testing, performance optimization, security auditing and code reviews.`,
+        ],
+      },
+      {
+        designation: `Software Engineer I`,
+        date: `Aug 2024 - July 2026`,
         location: `Hyderabad, Telangana, India`,
         additional: ``,
         description: [
@@ -17,7 +29,7 @@ export const experiencesData = [
         ],
       },
       {
-        designation: `Developer`,
+        designation: `Software Engineer`,
         date: `Aug 2022 – July 2024`,
         location: `Gurugram, Haryana, India`,
         additional: ``,
