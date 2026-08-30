@@ -40,3 +40,4 @@ jobs:
           project: 'my-portfolio'
           entrypoint: 'server/entry.mjs'
           root: 'dist'
+          auth-token: ${{ secrets.DENO_DEPLOY_TOKEN }}
