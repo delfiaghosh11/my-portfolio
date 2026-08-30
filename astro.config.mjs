@@ -1,7 +1,7 @@
-import deno from '@deno/astro-adapter';
 import { defineConfig } from 'astro/config';
 import vuetifyPlugin from 'vite-plugin-vuetify';
 
+import netlify from '@astrojs/netlify';
 import vue from '@astrojs/vue';
 
 /**
@@ -29,7 +29,7 @@ function vuetify(options) {
 
 export default defineConfig({
   output: 'server',
-  adapter: deno(),
+  adapter: netlify(),
   integrations: [
     vue({
       appEntrypoint: '/src/pages/_app',
