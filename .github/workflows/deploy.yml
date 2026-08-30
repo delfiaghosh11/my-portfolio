@@ -5,6 +5,9 @@ on:
   pull_request:
     branches: develop
 
+env:
+  DENO_AUTH_TOKENS: ${{ secrets.DENO_DEPLOY_TOKEN }}
+
 jobs:
   deploy:
     name: Deploy
@@ -40,4 +43,3 @@ jobs:
           project: 'my-portfolio'
           entrypoint: 'server/entry.mjs'
           root: 'dist'
-          auth-token: ${{ secrets.DENO_DEPLOY_TOKEN }}
